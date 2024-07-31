@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    
+        font-family: "Black Ops One", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        background-color: black;
+        color: white;
+}
+nav{
+    width: 100%;
+    padding: 1rem;
+    position: fixed;
+    top:0;
+    left: 15%;
+    background-color: black;
+}
+nav,.left,.right{
+    display: flex;
+    justify-content: space-around;
+    gap:2rem;
+    align-items: center;
+}
+.delivery,.pickup{
+    display: flex;
+    justify-content: space-between;
+    gap:0.5rem;
+    align-items: center;
+    background-color:#1C1816 ;
+    padding: 0.4rem 1rem;
+    border: radius 5px;
+    align-self: center;
+    letter-spacing: 2px;
+}
+.delivery{
+    border:2px solid #EA002A;
+}
+.bucket{
+    position: relative;
+}
+.number{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: black;
+}
+.login button{
+    background-color: #EA002A;
+    color: white;
+    padding: 0.8rem;
+    border: none;
+    font-weight: bolder;
+    font-family:"black Ops One";
+    border-radius: 5px;
+}
+menu-icon i{
+    font-size:2rem;
+}
+.front-page{
+    background-image: url("https://www.kfcpakistan.com/images/368c24d0-1eb6-11ef-8eab-abe07cbd279b-995x356_desktop_image-2024-05-30185541.jpg");
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.reorder{
+    width: 50%;
+    background-color: #EA002A;
+    color: white;
+    padding: 0.7em;
+    border-radius: 5px;
+    border: none;
+    text-transform: uppercase;
+    font-family: "Black Ops One";
+    font-size: large;
+    display: block;
+    margin: auto;
+
+}
+.explore{
+    width: 70%;
+    margin: 2rem auto;
+}
+.e-cards{
+    display: flex;
+    gap:2rem;
+    margin:2rem 0;
+    position: relative;
+}
+.e-card{
+    text-align: center;
+    padding: 2rem;
+    background-color:#1C1816;
+    border-radius: 50% 50% 3% 50%;
+    position: relative;
+}
+.e-heading hr{
+    width: 7%;
+    margin: 0.5rem 0;
+    height: 2px ;
+    background-color: #EA002A;
+    border: none;
+}
+.e-cards hr{
+    width: 30%;
+    margin: 0.5rem auto 0;
+    height: 2px ;
+    background-color: #EA002A;
+    border: none;
+}
+.dot{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.e-card:hover{
+    transform:translateY(-20%) ;
+
+}
+.seller-heading hr{
+    width: 7%;
+    margin: 0.5rem 0;
+    height: 2px ;
+    background-color: #EA002A;
+    border: none;
+}
